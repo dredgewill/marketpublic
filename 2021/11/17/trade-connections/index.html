@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.88.1" />
+
+
+<title>Trade Connections - A Hugo website</title>
+<meta property="og:title" content="Trade Connections - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/avatar.jpg"
+         width="100"
+         height="100"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Trade Connections</h1>
+
+    
+    <span class="article-date">2021-11-17</span>
+    
+
+    <div class="article-content">
+      
+<script src="/2021/11/17/trade-connections/index_files/header-attrs/header-attrs.js"></script>
+<script src="/2021/11/17/trade-connections/index_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="/2021/11/17/trade-connections/index_files/plotly-binding/plotly.js"></script>
+<script src="/2021/11/17/trade-connections/index_files/typedarray/typedarray.min.js"></script>
+<script src="/2021/11/17/trade-connections/index_files/jquery/jquery.min.js"></script>
+<link href="/2021/11/17/trade-connections/index_files/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="/2021/11/17/trade-connections/index_files/crosstalk/js/crosstalk.min.js"></script>
+<link href="/2021/11/17/trade-connections/index_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="/2021/11/17/trade-connections/index_files/plotly-main/plotly-latest.min.js"></script>
+
+
+<p>So previously we talked about how there were correlations between index growth rates between countries. However, we were left with some discrepancies, namely the disproportionate and unexpected connections. I believe that at least some of this can be addressed through looking at how each country trades. Surely, if China traded way more with Australia in contrast with other countries, then their economies must be at least more related right?</p>
+<p>Here we take a look at the distributions of trade of goods in 2020 between our selected countries. Please note though that due to data limitations, Germany would have to be a substitute for Europe.</p>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"visdat":{"64ec47764f46":["function () ","plotlyVisDat"]},"cur_data":"64ec47764f46","attrs":{"64ec47764f46":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"bar","color":{},"colors":["#24AE30","#D81414","#DEBC00","#7D8289","#1707BB"],"hovertemplate":"%{x}%","inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"barmode":"stack","barnorm":"percent","title":"Combined imports and exports as percentages","xaxis":{"domain":[0,1],"automargin":true,"title":"Total value (%)"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Country","type":"category","categoryorder":"array","categoryarray":["Australia","China","Germany","United Kingdom","USA"]},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[168318434092,12472377180,15936663693,40516708648],"y":["China","Germany","United Kingdom","USA"],"type":"bar","hovertemplate":["%{x}%","%{x}%","%{x}%","%{x}%"],"orientation":"h","name":"Australia","marker":{"color":"rgba(36,174,48,1)","line":{"color":"rgba(36,174,48,1)"}},"textfont":{"color":"rgba(36,174,48,1)"},"error_y":{"color":"rgba(36,174,48,1)"},"error_x":{"color":"rgba(36,174,48,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[161139506511,245291389736,98286291045,595885418916],"y":["Australia","Germany","United Kingdom","USA"],"type":"bar","hovertemplate":["%{x}%","%{x}%","%{x}%","%{x}%"],"orientation":"h","name":"China","marker":{"color":"rgba(216,20,20,1)","line":{"color":"rgba(216,20,20,1)"}},"textfont":{"color":"rgba(216,20,20,1)"},"error_y":{"color":"rgba(216,20,20,1)"},"error_x":{"color":"rgba(216,20,20,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[11873190419,192085145433,116035156691,182202327673],"y":["Australia","China","United Kingdom","USA"],"type":"bar","hovertemplate":["%{x}%","%{x}%","%{x}%","%{x}%"],"orientation":"h","name":"Germany","marker":{"color":"rgba(222,188,0,1)","line":{"color":"rgba(222,188,0,1)"}},"textfont":{"color":"rgba(222,188,0,1)"},"error_y":{"color":"rgba(222,188,0,1)"},"error_x":{"color":"rgba(222,188,0,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[15242099024,92367654353,115934815593,116942360843],"y":["Australia","China","Germany","USA"],"type":"bar","hovertemplate":["%{x}%","%{x}%","%{x}%","%{x}%"],"orientation":"h","name":"United Kingdom","marker":{"color":"rgba(125,130,137,1)","line":{"color":"rgba(125,130,137,1)"}},"textfont":{"color":"rgba(125,130,137,1)"},"error_y":{"color":"rgba(125,130,137,1)"},"error_x":{"color":"rgba(125,130,137,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[38131547819,588573227608,197602031527,123831463984],"y":["Australia","China","Germany","United Kingdom"],"type":"bar","hovertemplate":["%{x}%","%{x}%","%{x}%","%{x}%"],"orientation":"h","name":"USA","marker":{"color":"rgba(23,7,187,1)","line":{"color":"rgba(23,7,187,1)"}},"textfont":{"color":"rgba(23,7,187,1)"},"error_y":{"color":"rgba(23,7,187,1)"},"error_x":{"color":"rgba(23,7,187,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><em>Data source: <a href="https://comtrade.un.org/data" class="uri">https://comtrade.un.org/data</a></em></p>
+<p>And if you just want to look at Australian exports in particular, this map from <a href="https://www.globalaustralia.gov.au/why-australia/connected-global-markets">Global Australia</a> might help:</p>
+<div class="figure">
+<img src="Austrade-BM-australias-top-15-export-markets-2019-20.jpeg" alt="" />
+<p class="caption"><em>Source: GBTAT Australia 2021</em></p>
+</div>
+<p>Now one thing instantly stands out. Since Australia exports so much to China, no wonder Australia’s economy is dependent on China! But what about all the other countries? How could they all have such high values of trade with China yet not have the same market correlations?</p>
+<p>Well, in my <a href="/post/2021-11-12-global-correlations/">previous post</a>, I mentioned that the Chinese government has a tight control over their market to prevent extreme volatility. This control affects correlation, if there was a global financial movement and China’s response was different due to government intervention, then the change between countries differ, thus leading to lower correlation.</p>
+<p>What about the the high correlation with all the ‘Western’ nations? Well that could be partially explained by <a href="https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/BriefingBook44p/AustEU">political and historical</a> relations.</p>
+<p><a href="/post/2021/11/17/conclusion/">Next</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
